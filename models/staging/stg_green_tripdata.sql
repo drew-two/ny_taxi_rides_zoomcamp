@@ -41,9 +41,6 @@ select
 from tripdata
 where rn = 1
 
-
-
-where vendorid is not null
 {% if var('is_test_run', default=true) %}
 
   limit 100
